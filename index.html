@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WeatheApp</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-1 weather-app">
+          WeatherApp
+        </div>
+        <form id="search">
+       
+            <input
+              type="text"
+              placeholder="Search city"
+              class="form-control search"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-lg"
+              id="search-text-input"
+            />
+            <input type="submit" class="btn btn-primary" value="Search city" />
+          
+            
+          </div>
+        </form>
+
+        <form>
+          <div class="col-5"></div>
+        </form>
+      </div>
+      <div class="row">
+        <div class="col-5">
+          <div class="row data">
+            <div class="col-row temp">
+               <h2></h2>
+            </div>
+            
+            <div class="col-row">
+              <h6 class="humidity"></h6>
+            </div>
+            <div class="col-row">
+              <h6 class="wind"></h6>
+            </div>
+            <div class="col-row day">
+              <span id="curent-day">Monday</span>
+            </div>
+            <div class="col-row">
+              <h3><h3/>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="src/image.png" alt="" width="100%" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          Monday
+          <br />
+          <span class="tempratu">+28C</span>
+          <br />
+          <img src="src/image.png" alt="" width="100%" />
+        </div>
+        <div class="col-2">
+          Tuesday
+          <br />
+          <span class="tempratu">+28C</span>
+          <br />
+          <img src="src/image.png" alt="" width="100%" />
+        </div>
+        <div class="col-2">
+          Wedn
+          <br />
+          <span class="tempratu">+28C</span>
+          <br />
+          <img src="src/image.png" alt="" width="100%" />
+        </div>
+        <div class="col-2">
+          Thursday
+          <br />
+          <span class="tempratu">+28C</span>
+          <br />
+          <img src="src/image.png" alt="" width="100%" />
+        </div>
+        <div class="col-2">
+          Friday
+          <br />
+          <span class="tempratu">+28C</span>
+          <br />
+          <img src="src/image.png" alt="" width="100%" />
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

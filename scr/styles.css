@@ -1,0 +1,70 @@
+h1 {
+    color: blue;
+  }
+  
+  body {
+    background-color: lightblue;
+    padding: 20px;
+  }
+  
+  imput {
+    display: inline;
+  }
+  
+  h3,
+  h6 {
+    text-align: right;
+  }
+  
+  .data {
+    position: relative;
+    right: 0px;
+    bottom: -30px;
+  }
+  .temp {
+    font-size: 50px;
+    text-align: right;
+    color: blue;
+    font-weight: bolder;
+  }
+  
+  .weather-app {
+    font-size: 24px;
+    color: blue;
+    font-weight: bolder;
+    display: inline;
+  }
+  
+  .day,
+  .city {
+    color: black;
+    font-weight: bold;
+    text-align: right;
+    font-size: 30px;
+  }
+  
+  .submit {
+    background-color: black;
+    padding: 20px 60px;
+    color: white;
+    display: inline;
+  }
+  
+  .tempratu {
+    color: gray;
+    font-weight: bolder;
+  }
+  
+  .top-row {
+    margin-bottom: 10px;
+  }
+  
+  .search {
+    display: inline;
+    width: 77%;
+  }
+  
+  .form {
+    display: inline;
+  }
+  
