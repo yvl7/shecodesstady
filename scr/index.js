@@ -49,3 +49,5 @@ function cityName(event) {
 
 let form = document.querySelector("#search");
 form.addEventListener("submit", cityName);
+
+alert()
